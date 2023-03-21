@@ -8,14 +8,21 @@
 */
 int main(void)
 {
-	int i;
+	char c;
+	int d;
 
-	for (i = 97; i < 123; i++)
+	c = 'a';
+	d = 0; 
+	while
+		(d < 10)
 	{
-		if (i != 101 && i != 113)
-		{
-			putchar(i);
+		putchar (d + '0');
 		}
+	while
+                (c <= 'f')
+        {
+                putchar (c);
+		c++;
 	}
 	putchar('\n');
 	return (0);
