@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - print all alphabet in lowercase
+ * print_alphabet_x10 - print all alphabet in lowercase
  * Return:void
  */
 
@@ -9,7 +9,7 @@ void print_alphabet_x10(void)
 {
 	char ch;
 	int i;
-	i = 0;
+	int i = 0;
 
 	while (i < 10)
 	{
